@@ -21,5 +21,8 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <finalName>distribution-service</finalName>
+    </build>
 
 </project>
