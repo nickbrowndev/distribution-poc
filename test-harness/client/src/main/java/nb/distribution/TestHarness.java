@@ -1,4 +1,4 @@
-package com.nickbrown;
+package nb.distribution;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -19,11 +19,12 @@ public class TestHarness extends Application {
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("Distribution Test Harness");
 
+
         Button btn = new Button();
         btn.setText("Say 'Hello World!'");
         btn.setOnAction((event) -> {
             System.out.println("Hello World!");
-            ;
+
         });
 
         StackPane root = new StackPane();

@@ -1,4 +1,4 @@
-package com.nickbrown;
+package nb.distribution;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

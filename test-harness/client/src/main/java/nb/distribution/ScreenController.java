@@ -1,4 +1,4 @@
-package com.nickbrown;
+package nb.distribution;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -35,9 +35,8 @@ public class ScreenController extends StackPane {
         try {
             FXMLLoader myLoader = new
                     FXMLLoader(getClass().getResource(screen.getFxmlFileName()));
-            Parent loadScreen = (Parent) myLoader.load();
-            ControlledScreen myScreenController =
-                    ((ControlledScreen) myLoader.getController());
+            Parent loadScreen = myLoader.load();
+            ControlledScreen myScreenController = myLoader.getController();
             myScreenController.setScreenParent(this);
             addScreen(screen, loadScreen);
         } catch (Exception e) {

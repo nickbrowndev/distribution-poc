@@ -1,4 +1,4 @@
-package com.nickbrown;
+package nb.distribution;
 
 /**
  * Created by nick on 03/03/15.

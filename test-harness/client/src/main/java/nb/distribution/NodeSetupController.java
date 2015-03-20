@@ -1,4 +1,4 @@
-package com.nickbrown;
+package nb.distribution;
 
 import javafx.fxml.Initializable;
 
