@@ -12,6 +12,7 @@
     <modules>
         <module>test-harness</module>
         <module>distribution-service</module>
+        <module>network-test</module>
     </modules>
 
     <dependencies>
@@ -26,9 +27,9 @@
             <version>1.7.10</version>
         </dependency>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.8.21</version>
             <scope>test</scope>
         </dependency>
         <dependency>

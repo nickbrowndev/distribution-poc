@@ -1,0 +1,14 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane fx:controller="nb.distribution.fxml.StartController"
+            xmlns:fx="http://javafx.com/fxml">
+    <padding>
+        <Insets top="25" right="25" bottom="10" left="25"/>
+    </padding>
+    <Label text="Port no:" AnchorPane.leftAnchor="0.0"/>
+    <TextField fx:id="port" text="23" AnchorPane.rightAnchor="0.0" prefWidth="40"/>
+    <Button text="Start" onAction="#onStartButtonClick" AnchorPane.topAnchor="50.0"/>
+    <Button text="Stop" onAction="#onStopButtonClick" AnchorPane.topAnchor="50.0" AnchorPane.rightAnchor="0.0"/>
+    <TextArea fx:id="statusText" AnchorPane.bottomAnchor="0.0"/>
+</AnchorPane>

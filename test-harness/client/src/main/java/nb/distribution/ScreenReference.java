@@ -5,6 +5,7 @@ package nb.distribution;
  */
 public class ScreenReference {
 
+    private final String FXML_FILE_PATH = "fxml/";
     private final String FXML_FILE_EXTENSION = ".fxml";
     private String controllerName;
     private String fxmlFileName;
@@ -28,7 +29,7 @@ public class ScreenReference {
     }
 
     private void setFxmlFileNameFromControllerName(String controllerName) {
-        setFxmlFileName(controllerName + FXML_FILE_EXTENSION);
+        setFxmlFileName(FXML_FILE_PATH + controllerName + FXML_FILE_EXTENSION);
     }
 
     private void setFxmlFileName(final String fxmlFileName) {
